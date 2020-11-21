@@ -20,7 +20,7 @@ getattr(ssl, '_create_unverified_context', None)):
   ssl._create_default_https_context = ssl._create_unverified_context
 
 conn = http.client.HTTPSConnection("vrops.fios-router.home")
-payload = "{\n  \"username\" : \"admin\",\n  \"password\" : \"Beanie01!\"\n}"
+payload = "{\n  \"username\" : \"admin\",\n  \"password\" : \"Password01!\"\n}"
 headers = {
   'Content-Type': 'application/json',
   'Accept': 'application/json'
